@@ -1,6 +1,7 @@
 CONFIG_ARM=y
 CONFIG_ARCH_ZYNQ=y
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< feb460561ac1787977982edc4c321520dd9e2c2b
 CONFIG_DEFAULT_DEVICE_TREE="zynq-microzed"
 =======
@@ -83,6 +84,9 @@ CONFIG_SYS_MALLOC_CLEAR_ON_INIT=y
 # Boot images
 #
 >>>>>>> Added suport to Xilinx FPGA
+=======
+CONFIG_DEFAULT_DEVICE_TREE="zynq-tcc-rafael"
+>>>>>>> parent of 7dee304... Added suport to Xilinx FPGA
 =======
 CONFIG_DEFAULT_DEVICE_TREE="zynq-tcc-rafael"
 >>>>>>> parent of 7dee304... Added suport to Xilinx FPGA
