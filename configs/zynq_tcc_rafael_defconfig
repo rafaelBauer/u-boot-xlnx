@@ -127,20 +127,7 @@ CONFIG_USE_ARCH_MEMSET=y
 # CONFIG_TARGET_PCM052 is not set
 # CONFIG_TARGET_BK4R1 is not set
 CONFIG_ARCH_ZYNQ=y
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< feb460561ac1787977982edc4c321520dd9e2c2b
 CONFIG_DEFAULT_DEVICE_TREE="zynq-microzed"
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< feb460561ac1787977982edc4c321520dd9e2c2b
-CONFIG_DEFAULT_DEVICE_TREE="zynq-microzed"
-=======
-=======
->>>>>>> e2b20eb3a97b9e7411265556f88ca38d3b52d5ba
->>>>>>> 16cbd70eef584f837738f6f835e8c7d7012a682b
 # CONFIG_ARCH_ZYNQMP is not set
 # CONFIG_TEGRA is not set
 # CONFIG_TARGET_VEXPRESS64_AEMV8A is not set
@@ -199,7 +186,6 @@ CONFIG_MMC=y
 # ARM debug
 #
 # CONFIG_DEBUG_LL is not set
-CONFIG_DEFAULT_DEVICE_TREE="zynq-microzed"
 CONFIG_SMBIOS_PRODUCT_NAME="zynq"
 # CONFIG_AHCI is not set
 
@@ -219,25 +205,6 @@ CONFIG_SYS_MALLOC_CLEAR_ON_INIT=y
 #
 # Boot images
 #
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 16cbd70eef584f837738f6f835e8c7d7012a682b
->>>>>>> Added suport to Xilinx FPGA
-=======
-CONFIG_DEFAULT_DEVICE_TREE="zynq-tcc-rafael"
->>>>>>> parent of 7dee304... Added suport to Xilinx FPGA
-=======
-CONFIG_DEFAULT_DEVICE_TREE="zynq-tcc-rafael"
->>>>>>> parent of 7dee304... Added suport to Xilinx FPGA
-<<<<<<< HEAD
-=======
-=======
-=======
-CONFIG_DEFAULT_DEVICE_TREE="zynq-microzed"
->>>>>>> 6fb30bda5cc4ba02282c13e1e99ebb9a12b83b67
->>>>>>> e2b20eb3a97b9e7411265556f88ca38d3b52d5ba
->>>>>>> 16cbd70eef584f837738f6f835e8c7d7012a682b
 CONFIG_FIT=y
 # CONFIG_SPL_FIT is not set
 CONFIG_FIT_VERBOSE=y
@@ -551,9 +518,9 @@ CONFIG_DFU_RAM=y
 #
 # FPGA support
 #
-CONFIG_FPGA=y
+# CONFIG_FPGA is not set
 # CONFIG_FPGA_ALTERA is not set
-CONFIG_FPGA_XILINX=y
+# CONFIG_FPGA_XILINX is not set
 # CONFIG_FPGA_ZYNQMPPL is not set
 
 #
