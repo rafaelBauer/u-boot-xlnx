@@ -185,7 +185,7 @@ CONFIG_MMC=y
 # ARM debug
 #
 # CONFIG_DEBUG_LL is not set
-CONFIG_DEFAULT_DEVICE_TREE="zynq-tcc-rafael"
+CONFIG_DEFAULT_DEVICE_TREE="zynq-microzed"
 CONFIG_SMBIOS_PRODUCT_NAME="zynq"
 # CONFIG_AHCI is not set
 
