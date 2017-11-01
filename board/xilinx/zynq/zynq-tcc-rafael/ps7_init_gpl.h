@@ -1,1 +1,1 @@
-/home/rafael/tcc-rafael/motor-control/sdk_fpga/processor-tcc/ps7_init_gpl.h
+/home/rafael/tcc-rafael/motor-control/sdk_fpga/System_wrapper_hw_platform_0/ps7_init_gpl.h
