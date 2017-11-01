@@ -23,7 +23,7 @@ CONFIG_SYS_ARCH="arm"
 CONFIG_SYS_CPU="armv7"
 CONFIG_SYS_SOC="zynq"
 CONFIG_SYS_VENDOR="xilinx"
-CONFIG_SYS_BOARD="zynq"
+CONFIG_SYS_BOARD="zynq-tcc-rafael"
 CONFIG_SYS_CONFIG_NAME="zynq-common"
 
 #
@@ -127,7 +127,6 @@ CONFIG_USE_ARCH_MEMSET=y
 # CONFIG_TARGET_PCM052 is not set
 # CONFIG_TARGET_BK4R1 is not set
 CONFIG_ARCH_ZYNQ=y
-CONFIG_DEFAULT_DEVICE_TREE="zynq-microzed"
 # CONFIG_ARCH_ZYNQMP is not set
 # CONFIG_TEGRA is not set
 # CONFIG_TARGET_VEXPRESS64_AEMV8A is not set
@@ -186,6 +185,7 @@ CONFIG_MMC=y
 # ARM debug
 #
 # CONFIG_DEBUG_LL is not set
+CONFIG_DEFAULT_DEVICE_TREE="zynq-tcc-rafael"
 CONFIG_SMBIOS_PRODUCT_NAME="zynq"
 # CONFIG_AHCI is not set
 
@@ -518,10 +518,8 @@ CONFIG_DFU_RAM=y
 #
 # FPGA support
 #
-# CONFIG_FPGA is not set
 # CONFIG_FPGA_ALTERA is not set
 # CONFIG_FPGA_XILINX is not set
-# CONFIG_FPGA_ZYNQMPPL is not set
 
 #
 # GPIO Support
